@@ -7,6 +7,10 @@
     box-sizing: border-box;
     }
 
+    body{
+        font-family: sans-serif;
+    }
+
     main{
         height: 100vh;
         width: 100%;
@@ -37,6 +41,10 @@
         padding: 1rem;
     }
 
+    .logo{
+        margin-bottom: 1rem;
+    }
+
     .playlist{
         margin-top: 1rem;
 
@@ -54,7 +62,21 @@
     .btn-area{
         height: 10%;
         width: 100%;
-        background-color: grey;
+        background-color: #080B12;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .btn-up{
+        padding: 0.5rem 2rem;
+       border: solid 2px white;
+        border-radius: 25px;   
+        background-color: #080B12;
+        color: aliceblue;
+        text-decoration: none;
+        height: 60%;
+        margin-right: 0.5rem;
     }
 
     .link-area{
@@ -63,7 +85,11 @@
     }
 
     a{
-        padding: 1rem 3rem;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        color: grey;
+        font-size: 15px;
+        font-weight: 600;
     }
 
 
