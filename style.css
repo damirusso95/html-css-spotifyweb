@@ -30,7 +30,18 @@
         width: 15%;
         height: 100%;
         background-color: black;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
     }
+
+    .playlist{
+        margin-top: 1rem;
+
+    }
+
 
     .container-top{
         width: 100%;
@@ -58,7 +69,7 @@
 
     /* sezione card */
 
-    .container-cards{
+    .container-cards, .conteiner-card-2, .conteiner-card-3{
         width: 100%;
         padding: 1rem;
         display: flex;
@@ -74,4 +85,30 @@
         height: 10%;
         width: 100%;
         background-color: crimson;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .toolbar-content-sx{
+        width:25%;
+        padding: 1rem;
+
+    }
+
+    .toolbar-content-cent{
+        text-align: center;
+        width:50%;
+        padding: 1rem;
+
+        
+    }
+
+    .toolbar-content-dx{
+        text-align: right;
+        width:25%;
+        padding: 1rem;
+
+        
     }
