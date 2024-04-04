@@ -44,6 +44,14 @@
         color: white;
         text-align: center;
         font-size: 15px;
+        padding-top: 0.5rem;
+    }
+
+    h4{
+        font-size: 12px;
+        color: white;
+        margin-right: 2rem;
+        padding-left: 0.5rem;
     }
 
     .fa-solid{
@@ -167,9 +175,18 @@
     }
 
     .toolbar-content-sx{
+        height: 100%;
         width:25%;
         padding: 1rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
 
+    }
+
+    .sinister-small{
+        width: 30px;
+        height: 30px;
     }
 
     .toolbar-content-cent{
@@ -183,7 +200,22 @@
     .toolbar-content-dx{
         text-align: right;
         width:25%;
-        padding: 1rem;       
+        padding: 1rem;
+        display: flex;   
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .fa-list, .fa-desktop, .fa-volume-high{
+        padding: 0 0.3rem;
+    }
+
+    .volume{
+        height: 5px;
+        width: 50%;
+        border-radius: 25px;
+        background-color: #A3A3A3;
     }
 
     /* media q. tablet */
