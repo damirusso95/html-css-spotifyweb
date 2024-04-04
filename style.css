@@ -17,10 +17,7 @@
         background-color: black;
     }
 
-    .debug{
-        border: dashed 2px;
-        background-color: yellow;
-    }
+
 
     img{
         width: 100%;
@@ -61,6 +58,30 @@
     .p-playlist{
         color: #A3A3A3;
         font-size: 12px;
+    }
+
+    .p-menu{
+        color: #A3A3A3;
+        font-size: 12px;
+        position: relative;
+        padding: 0 10px;
+    }
+    p.menu::after{
+        content: "";
+        position: absolute;
+        background-color: greenyellow;
+        width:0;
+        height: 3px;
+        left: 0;
+        bottom: 0;
+        transition: 0.3s;
+    }
+    .p-menu:hover{
+        color: white;
+    }
+
+    .p-menu:hover:after{
+       width: 100%;
     }
 
     .p-main-content{
@@ -168,6 +189,38 @@
 
     a:hover:after{
         width: 100%;
+    }
+
+    /* prova */
+
+    #nav{
+        text-decoration: none;
+        color: #A3A3A3;
+        font-size: 10px;
+        font-weight: 600;
+        position: relative;
+        padding: 0;
+        display: block;
+
+    }
+
+    #nav::after{
+        content: "";
+        position: absolute;
+        background-color: greenyellow;
+        height:0;
+        width:3px;
+        left: -15px;
+        bottom: 0;
+        transition: 0.3s;
+
+    }
+    #nav:hover{
+        color: white;
+    }
+
+    #nav:hover:after{
+        height: 100%;
     }
 
 
