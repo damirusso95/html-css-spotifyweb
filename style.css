@@ -339,6 +339,10 @@
         .card{
             width: calc(100% / 5);
         }
+
+        .volume{
+            display: none;
+        }
         
     }
 
@@ -351,6 +355,10 @@
 
     .card{
         width: calc(100% / 3);
+    }
+
+    .volume{
+        display: none;
     }
 
     }
